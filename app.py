@@ -1,14 +1,16 @@
+from PIL import Image
+import google.generativeai as genai
+import streamlit as st
+import os
+import json
+from dotenv import load_dotenv
+load_dotenv()
 """
 Food Calorie & Nutrition Detector - Streamlit web interface (polished)
 ----------------------------------------------------------------
 Run with: python -m streamlit run app.py
 """
 
-import json
-import os
-import streamlit as st
-import google.generativeai as genai
-from PIL import Image
 
 st.set_page_config(
     page_title="NutriScan AI",
