@@ -2,6 +2,6 @@ streamlit
 pandas
 numpy
 Pillow
-opencv-python
-tensorflow
+opencv-python-headless
+tensorflow==2.18.1
 google-generativeai
