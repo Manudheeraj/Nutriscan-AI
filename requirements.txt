@@ -5,3 +5,4 @@ Pillow
 opencv-python-headless
 tensorflow==2.18.1
 google-generativeai
+python-dotenv
